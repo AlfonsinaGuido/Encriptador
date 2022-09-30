@@ -141,6 +141,19 @@ main{
     color: var(--dark-blue);
 }
 
+#footer a{
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+    font-weight: bold;
+    text-decoration: none;
+    color:#0A3871;
+}
+
+#footer a:hover{
+    font-size: large;
+}
+
 @media screen and (max-width:917px) {
     main{
         margin:100px 50px 0 50px ;
@@ -205,5 +218,9 @@ main{
     #copiar{
         width: 60%;
         margin: auto auto 10px auto;
+    }
+    #footer a{
+        left: 25%;
+        bottom: -15%;
     }
 }  
